@@ -1,0 +1,29 @@
+/*
+Theme Name: Porimoni Portfolio Theme
+Theme URI: https://github.com/habibur899
+Author: Habibur Rahaman
+Author URI: https://www.facebook.com/habibur5g/
+Description: This is a elementor based WordPress portfolio theme.
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: porimoni
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+/*
+Contact Form 7 Style
+*/
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.form-control {
+    background: transparent !important;
+}
+
+textarea.form-control {
+    background: transparent !important;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border-color: #ff014f!important;
+}
